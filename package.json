@@ -1,0 +1,31 @@
+{
+  "name": "@monster-bet/tournament-daemon",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d bin --copy-files",
+    "test": "babel-watch src",
+    "start": "node bin",
+    "test:server": "babel-watch src/server"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "@twentyonepepes/server": "^2.0.1",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.27.2",
+    "delay": "^5.0.0",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "rxjs": "^7.5.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.15.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-convert-to-json": "^0.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-watch": "^7.5.0"
+  }
+}

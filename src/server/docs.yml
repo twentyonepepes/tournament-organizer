@@ -1,0 +1,8 @@
+/control/pause:
+  description: pauses operation of the daemon until unpause is called.
+
+/control/unpause:
+  description: resume operation of the daemon.
+
+/tournament$:
+  description: websocket which broadcasts tournament state whenever updated.
